@@ -40,5 +40,6 @@ void MainWindow::openjuego()
 void MainWindow::on_comenzar_clicked()
 {
     openjuego();
+    close();
 }
 

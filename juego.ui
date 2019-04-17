@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/imagenes/Fondo_Verde133928781355.jpg);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -24,10 +27,11 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);</string>
+     <string notr="true">color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>Bote actual</string>
+     <string> Bote actual</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -40,10 +44,10 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);</string>
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>Tu apuesta</string>
+     <string> Tu apuesta</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -51,15 +55,15 @@
      <rect>
       <x>70</x>
       <y>430</y>
-      <width>61</width>
+      <width>51</width>
       <height>16</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);</string>
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>Tu dinero</string>
+     <string> Tu dinero</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
@@ -72,7 +76,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);</string>
+     <string notr="true">color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>Retirarse</string>
@@ -88,7 +92,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);</string>
+     <string notr="true">color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>Pasar</string>
@@ -104,7 +108,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);</string>
+     <string notr="true">color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>Apostar</string>
@@ -120,7 +124,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);</string>
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="tu_apuesta">
@@ -132,6 +136,9 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255, 255, 255)</string>
+    </property>
    </widget>
    <widget class="QTextEdit" name="tu_dinero">
     <property name="geometry">
@@ -142,6 +149,9 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
    </widget>
    <widget class="QTextEdit" name="bote_actual">
     <property name="geometry">
@@ -151,6 +161,9 @@
       <width>261</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="nombre">
@@ -173,7 +186,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);</string>
+     <string notr="true">color: rgb(255,255,255);</string>
     </property>
    </widget>
    <widget class="QLabel" name="mano1">
@@ -316,7 +329,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>20</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
