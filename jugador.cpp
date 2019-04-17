@@ -22,17 +22,20 @@ int jugador::apostar(int subida){
 }
 
 void jugador::obtenercartas(jugador player1, jugador player2){
+    srand(time(NULL));
+    vector <char[30]> imagenes{2};
     bool comprobacion = true;
-    int aux = 1+rand()%52;
+    int aux;
     while (comprobacion){
+        aux = 1+rand()%52;
         if (player1.cartas[0] != aux && player1.cartas[1] != aux && player2.cartas[0] != aux && player2.cartas[1] != aux){
             comprobacion = false;
         }
     }
     cartas[0] = aux;
     comprobacion = true;
-    aux = 1+rand()%52;
     while (comprobacion){
+        aux = 1+rand()%52;
         if (player1.cartas[0] != aux && player1.cartas[1] != aux && player2.cartas[0] != aux && player2.cartas[1] != aux && cartas[0] != aux){
             comprobacion = false;
         }
@@ -52,3 +55,6 @@ QString jugador::devolvernombre(){
     return nombre;
 }
 
+bool jugador::devolvereliminado(){
+    return eliminado;
+}

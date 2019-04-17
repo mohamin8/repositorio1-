@@ -17,6 +17,7 @@ public:
     explicit juego(QString nombre1, QString nombre2, QString nombre3, QWidget *parent = nullptr);
     ~juego();
     void turnoinicial(mesa table, jugador player1, jugador player2, jugador player3);
+    void mostrarmano(int carta1, int carta2);
 
 private:
     Ui::juego *ui;

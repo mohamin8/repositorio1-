@@ -61,4 +61,3 @@ void mesa::repartir5(jugador player1, jugador player2, jugador player3){
 int mesa::devolverbote(){
     return bote;
 }
-

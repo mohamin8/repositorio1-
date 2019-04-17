@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <QString>
+#include <time.h>
 
 using namespace std;
 
@@ -17,6 +18,7 @@ public:
     int devolverdinero();
     int devolverapuesta();
     QString devolvernombre();
+    bool devolvereliminado();
 
 private:
     QString nombre;
@@ -27,4 +29,3 @@ private:
 };
 
 #endif // JUGADOR_H
-
